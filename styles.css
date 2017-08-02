@@ -26,6 +26,10 @@ ul.menu {
   padding: 10px 5px;
 }
 
+.menu li:hover {
+  background-color: lightsalmon; 
+}
+
 .menu a {
   text-decoration: none;
   color: white;
@@ -49,12 +53,7 @@ main {
 }
 
 strong {
-  text-decoration: underline;
-  color: gold;
-}
-
-.underline-text {
-  color: black;
+  text-decoration: underline gold;
 }
 
 .box {
@@ -65,6 +64,10 @@ strong {
 
 .box img {
   width: 100%;
+}
+
+.box a:hover {
+  color: red;
 }
 
 .box footer {
@@ -79,7 +82,8 @@ footer {
   margin-top: 5px;
 }
 
-footer h6 {
+footer p {
   margin: 0;
   padding: 20px 0;
+  font-size: 12.8px
 }
