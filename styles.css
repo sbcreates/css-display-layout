@@ -27,7 +27,7 @@ ul.menu {
 }
 
 .menu li:hover {
-  background-color: lightsalmon; 
+  background-color: lightsalmon;
 }
 
 .menu a {
@@ -53,7 +53,7 @@ main {
 }
 
 strong {
-  text-decoration: underline gold;
+  border-bottom: 2px solid gold;
 }
 
 .box {
